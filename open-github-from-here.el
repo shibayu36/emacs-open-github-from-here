@@ -21,6 +21,13 @@
 
 ;;; Commentary:
 
+;; open-github-from-here is to open github file url from emacs,
+;; such as https://github.com/shibayu36/emacs-open-github-from-here/blob/development/open-github-from-here.el#L31..L35.
+;; select region, and M-x open-github-from-here
+
+;; To use this package, add these lines to your init.el or .emacs file:
+;;     (require 'open-github-from-here)
+
 ;;; Code:
 
 (defvar open-github-from-here:command-dir
