@@ -34,7 +34,7 @@ Add following to your el-get-sources setting and execute `M-x el-get-install ope
                :url "https://github.com/shibayu36/emacs-open-github-from-here")
         ))
 
-You also install by not using el-get.  git clone this repository to your emacs lisp directory. , and add load-path to the directory.
+You also install by not using el-get.  git clone this repository to your emacs lisp directory.
 
 ```
 $ git clone git://github.com/shibayu36/emacs-open-github-from-here.git path/to/dir
