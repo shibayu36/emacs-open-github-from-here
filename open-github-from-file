@@ -4,8 +4,6 @@ use warnings;
 
 use Cwd;
 
-my $browse_command = $ENV{BROWSE_COMMAND} || "open";
-
 my $arg = shift @ARGV || "";
 my $filename = getcwd() . "/" . $arg; # absolute path
 my $line_start = shift @ARGV;
@@ -30,4 +28,5 @@ $filename =~ s{^$git_top/}{};
 my $url = "https://$host/$user/$repo/tree/$branch/$filename";
 $url .= "#L$line_start" if $line_start;
 $url .= "..L$line_end"  if $line_end;
-system "$browse_command $url";
+
+print $url;
