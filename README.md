@@ -7,11 +7,13 @@ open-github-from-here is interface to open github file url from emacs, such as h
 
 Select region as following,
 
+![select-region](image/select-region.png)
+
 And `M-x open-github-from-here`
 
 Then open github file URL
 
-
+![open-github](image/open-github.png)
 
 ## Requirements
 
