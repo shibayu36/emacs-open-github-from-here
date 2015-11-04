@@ -1,4 +1,4 @@
-;;; open-github-from-here.el ---
+;;; open-github-from-here.el --- open github file url from select region
 
 ;; Copyright (C) 2013 by Yuki SHIBAZAKI
 
